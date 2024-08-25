@@ -25,6 +25,9 @@
               },
               fontFamily:{
               manrope:'Manrope',
+              },
+              backgroundImage: {
+              footer: "url('./assets/bg.jpg')"
               }
             }
           }
@@ -34,7 +37,7 @@
 <body class="font-manrope">
   <!-- header start -->
   <header>
-   <!-- <nav class="w-11/12 mx-auto">
+   <nav class="w-11/12 mx-auto">
     <div class="flex gap-x-1">
             <div class="bg-primary items-center   w-8 rounded-full">
               <span><i class="fa-solid fa-arrow-right"></i></span>
@@ -46,7 +49,7 @@
     <h2>Book consult</h2>
     <div class="bg-primary w-6 h-6 rounded-full">
         <span><i class="fa-solid fa-arrow-right -rotate-45 items-center"></i></span>
-   </button> -->
+   </button>
    <!-- banner section -->
    <section class="lg:my-12">
     <!-- banner -->
@@ -83,7 +86,7 @@
         <img class="lg:h-full lg:mt-3 " src="./assets/Vector.png" alt="">
       </div>
     <!-- barn house container -->
-    <div class="w-11/12 mx-auto flex sm:flex-row flex-col mt-9 lg:gap-8 gap-4">
+          <div class="w-11/12 mx-auto flex sm:flex-row flex-col mt-9 lg:gap-8 gap-4">
         <!-- barn house content -->
          <div class="lg:space-y-6 space-y-4">
           <!-- button -->
@@ -123,7 +126,7 @@
           </div>
         <!-- image -->
           <img src="./assets/Rectangle.png" alt=""> 
-      </div>
+          </div>
           <!-- work process container -->
             <div class="w-11/12 mx-auto lg:my-20 my-10">
               <!-- work process content -->
@@ -175,9 +178,9 @@
              </div> 
     </section>
     <!--start latest portfolio section -->
-    <section class="w-11/12 mx-auto">
+    <section class="lg:py-12 py-6">
       <!-- latest portfolio container -->
-       <div class="">
+       <div class="w-11/12 mx-auto">
         <!-- latest portfolio content -->
         <div class="text-center space-y-4 mb-5">
           <!-- button -->
@@ -242,5 +245,85 @@
        </div>
     </section>
   </main>
+  <footer>
+    <!-- input form section -->
+     <section class="bg-footer lg:py-24 py-8">
+      <!-- form container -->
+       <div class="lg:w-8/12 px-6 mx-auto">
+        <!-- form content -->
+        <div class="text-center space-y-4 mb-8">
+          <!-- button -->
+          <div>
+            <button class=" px-6 py-2 bg-secondary bg-opacity-20 rounded-full">
+            <span class="font-bold text-base text-black lg:text-black">
+              <i class="fa-solid fa-arrow-right"></i> Let's Connect</span>
+            </button>
+            </div>
+            <h2 class="font-bold lg:text-4xl text-4xl text-black">Let's Discuss Next Project</h2>
+            <p class="font-medium text-base">The direction for your future work.Let's dive into what you're envisioning for your <br> next projects.fill the form now</p>
+         </div>
+         <!-- form container -->
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div>
+              <input class="p-5 border-2 rounded-full w-full" type="text" placeholder="First Name*">
+            </div>
+            <div>
+              <input class="p-5 border-2 rounded-full w-full" type="text" placeholder="Last Name*">
+            </div>
+            <div>
+              <input class="p-5 border-2 rounded-full w-full" type="text" placeholder="Phone Number*">
+            </div>
+            <div>
+              <input class="p-5 border-2 rounded-full w-full" type="text" placeholder="Your Email*">
+            </div>
+            <div class="lg:col-span-2">
+              <textarea rows="7" class="p-5 border-2 rounded-3xl w-full" name="" id="" placeholder="Write your message here"></textarea>
+            </div>
+            <!-- button -->
+            <button class="btn rounded-full bg-primary px-4 lg:col-span-2">
+              <a class="font-extrabold text-xl">Book consult</a>
+              <div class="avatar placeholder items-center">
+                <div class=" bg-black w-6 h-6 rounded-full text-white">
+                  <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+                </div>
+              </div>
+             </button>
+          </div>
+       </div>
+     </section>
+     <!-- footer final section  -->
+      <section class="bg-black lg:py-24 py-16">
+        <!-- container -->
+         <div class="lg:w-8/12 px-6 mx-auto text-center">
+          <!-- div-1 -->
+        <div class="flex justify-center items-center pb-4 gap-x-1">
+          <div class=" bg-primary w-6 h-6 rounded-full text-center">
+            <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+          </div>
+          <h2 class="font-extrabold text-3xl text-white">Rinterio</h2>
+        </div> 
+         <p class="font-medium text-base text-stone-400">Any unique or adaptive reuse projects like converting old structures into modern spaces. What are the expected budgets for these projects</p>
+         <!-- div 2 -->
+         <div class="text-white lg:flex items-center justify-between lg:pt-12 pt-8 space-y-6 font-medium text-base">
+          <p>Home</p>
+          <p>Services</p>
+          <p>portfolio</p>
+          <p>Blogs</p>
+          <p>Contact Us</p>
+         </div>
+         <!-- div 3 -->
+         <div class="lg:pt-12 pt-8">                 
+           <button class="btn rounded-full bg-primary px-4 ">
+            <a class="font-extrabold text-xl">Book Consult</a>
+            <div class="avatar placeholder items-center">
+              <div class=" bg-black w-6 h-6 rounded-full text-white">
+                <span><i class="fa-solid fa-arrow-right -rotate-45"></i></span>
+              </div>
+            </div>
+           </button>
+          </div>   
+      </div>
+      </section>
+  </footer>
 </body>
 </html>
